@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+.hero {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+.typewriter {
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  animation: typing 3s steps(40) infinite alternate;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.bg-cake {
+  background: radial-gradient(circle, #ff758c, #ff7eb3);
+}
+.cake {
+  width: 180px;
+  height: 120px;
+  background: pink;
+  margin: 20px auto;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 0 20px hotpink;
+}
+.candle {
+  width: 12px;
+  height: 30px;
+  background: yellow;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: flame 1s infinite alternate;
+}
+@keyframes flame {
+  from { background: yellow; }
+  to { background: orange; }
+}
+.bg-card {
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+.love-card {
+  width: 360px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px pink;
+}
+.bg-final {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
